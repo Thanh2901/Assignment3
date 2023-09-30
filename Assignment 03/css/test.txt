@@ -1,0 +1,166 @@
+.bg-grey {
+        background: #f7f7f7;
+    }
+
+    /* Các thiết bị có chiều dài lớn hơn 800px */
+    /* banner */
+    #banner img {
+        position: relative;
+        opacity: 90%;
+        filter: brightness(50%);
+        width: 100%;
+    }
+
+    #banner h1 {
+        position: absolute;
+        top: 200px;
+        z-index: 1;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 60px;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    #banner span {
+        position: absolute;
+        top: 300px;
+        z-index: 1;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 20px;
+        font-family: 'open_sanslight';
+        letter-spacing: 3px;
+    }
+
+    /* navbar */
+
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    nav a:nth-child(2) {
+        border-right: 1px solid #6c757d;
+    }
+
+    nav a:nth-child(3) {
+        display: inline-block;
+    }
+
+    nav a:nth-child(3) {
+        border-left: 0;
+    }
+
+    nav a {
+        border-left: 1px solid #6c757d;
+    }
+
+    nav a:last-child {
+        border-right: 1px solid #6c757d;
+    }
+
+    /* about */
+
+    #about .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about #target p {
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    #about #personal-info ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    /* job-info */
+
+    #job-info .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 10px;
+    }
+
+    #job-info .card-body ul {
+        list-style-type: "- ";
+    }
+
+    #job-info .card i {
+        flex-direction: end;
+    }
+
+    #job-info #languages span {
+        height: 2px;
+        margin-right: 10px;
+        width: 45px;
+    }
+
+    #job-info #skills span {
+        height: 2px;
+        margin-right: 10px;
+        width: 45px;
+    }
+
+    /* certificate */
+
+    #certificate .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #certificate h1 {
+        grid-column: 1 / -1;
+    }
+
+    #certificate .content ul {
+        list-style-type: "- ";
+    }
+
+    /* project */
+
+    #project .container {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #project .section-title {
+        grid-column: 1 / -1;
+        font-size: 30px;
+    }
+
+    #project img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #project table td:first-child {
+        width: 30%;
+        vertical-align: text-top;
+        padding-left: 10px;
+    }
+
+    #project table tr td {
+        border-bottom: 1px solid #6c757d;
+        border-collapse: collapse;
+    }
+
+    #project .card-img, #project .card-title, #project .title {
+        border-bottom: 1px solid;
+    }
+
+    /* footer */
